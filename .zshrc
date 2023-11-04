@@ -110,4 +110,8 @@ case ":$PATH:" in
 esac
 # pnpm end
 
+# add Pulumi to the PATH
+export PATH=$PATH:$HOME/.pulumi/bin
 
+# add Terraform to the PATH
+export PATH=$PATH:$HOME/terraform
